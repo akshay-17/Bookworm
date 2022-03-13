@@ -1,31 +1,9 @@
-import React, { Component } from "react";
-import {
-  Card,
-  Carousel,
-  Button,
-  Navbar,
-  Container,
-  Nav,
-} from "react-bootstrap";
-import ReactDOM from "react-dom";
+import React from "react";
+import { Card, Carousel, Button } from "react-bootstrap";
 
 const Main = () => {
   return (
     <div>
-      <Navbar bg="dark" variant="dark">
-        <img
-          src={require("../images/logo.png")}
-          height={"50rem"}
-          width={"60rem"}
-          style={{ marginLeft: "2rem" }}
-        />
-        <Navbar.Brand href="#home">Navbar</Navbar.Brand>
-        <Nav className="me-auto">
-          <Nav.Link href="#home">Home</Nav.Link>
-          <Nav.Link href="#features">Features</Nav.Link>
-          <Nav.Link href="#pricing">Pricing</Nav.Link>
-        </Nav>
-      </Navbar>
       <div>
         <Carousel>
           <Carousel.Item>
